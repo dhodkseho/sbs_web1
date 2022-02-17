@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 레이아웃</title>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 폰트2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+    <style>
+        * {box-sizing: border-box; margin: 0; padding: 0;}
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-family: 'Hi Melody', cursive;
+        }
+/* #: id 속성을 지정하는 선택자, ex.밑에 있는 header에만 적용하고 싶을때 */
+        #header {
+            background-color: lightgray;
+            height: 100px;
+        }
+        #nav {
+            background-color: #339999;
+            color: wheat;
+            width: 200px;
+            height: 300px;
+            float: left;
+        }
+    #section {
+        width: calc(100% - 200px);
+        height: 300px;
+        text-align: left;
+        float: left;
+        padding: 100px;
+        border: 1px solid #339999;
+    }
+    /* calc: 함수태그, ex. 화면전체(100%)에서 nav 200px을 뺀 값을 내기 위해 사용
+              100% - 200px -> 숫자 사이 빼기 사용할 때 한칸씩 띄어쓰기 하고 사용해야 함 */
+
+    #footer {
+        background-color: #ffcc00;
+        height: 100px;
+        clear: both;
+    }
+
+    #header, #nav, #section, #footer {
+        text-align: center;
+    }
+
+    #header, #footer {line-height: 100px;}
+    #nav, #section {line-height: 240px;}
+    </style>
+
+</head>
+<body>
+    <h1>div 요소를 이용한 레이아웃</h1>
+    <div id="header">
+        <h2> HEADER 영역</h2>
+    </div>
+<div id="nav">
+    <h2> NAV 영역</h2>
+</div>
+<div id="section">
+    <h2> SECTION 영역</h2>
+</div>
+<div id="footer">
+    <h2> FOOTER 영역</h2>
+</div>
+
+</body>
+</html>
+
+<!-- margin 외부영역, padding 내부영역-->
+<!-- 폰트 사용(구글폰트): 'select this style 클릭' -> 3번째 링크주소 복사 -> 스타일 안에 <title> 밑에 폰트링크 복사 -> 바디 태그 안에 폰트패밀리 링크 복사 -->
