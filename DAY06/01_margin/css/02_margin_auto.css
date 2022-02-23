@@ -2,7 +2,7 @@
 .container {
     position: relative;
     width: 1200px;
-    /* height: 800px; */ /* 헤더, 섹션, 푸터 높이가 컨테이너 높이보다 넘치기 때문에 컨테이너의 높이를 지정하지 않으면 자동으로 내용이 다 포함되도록 높이가 자동으로 설정됨*/
+    /* height: 800px; */
     border: 5px dashed orange;
     margin: auto;
 }
