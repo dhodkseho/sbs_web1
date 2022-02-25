@@ -17,3 +17,5 @@
 .box2 {overflow: hidden;} /* 넘치는 컨텐츠를 숨긴다 */
 .box3 {overflow: scroll;} /* 무조건 스크롤바를 표시하고 스크롤 영역에 출력 */
 .box4 {overflow: auto;} /* 컨텐츠가 넘칠때 만 스크롤 영역에 출력 */
+
+/* 너무어렵당.... */
