@@ -1,3 +1,4 @@
+
 * {margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif;}
 
 /* reset */
@@ -18,9 +19,9 @@ a {
     width: 100%;
     height: 100vh;
     background: 
-       radial-gradient(circle at 50% 0, red, rgba(255,0,0,0) 70%),
-       radial-gradient(circle at 7% 75%, blue, rgba(255,0,0,0) 70%), 
-       radial-gradient(circle at 93% 75, green, rgba(255,0,0,0) 70%);
+       radial-gradient(circle at 50% 0, rgba(255,0,0, 0.5), rgba(255,0,0,0) 70%),
+       radial-gradient(circle at 7% 75%, rgba(0,0,255, 0.5), rgba(255,0,0,0) 70%), 
+       radial-gradient(circle at 93% 75%, rgba(0,255,0, 0.5), rgba(255,0,0,0) 70%);
 }
 
 
@@ -39,6 +40,10 @@ a {
     /* x축위치 y축위치 블러 색상 */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* inner */
+#login {width: 100%; height: 100%;}
+
 /* 로고 */
 #login .login-logo {
     height: 200px;

@@ -37,5 +37,5 @@
 .stacked-radial {
     background: radial-gradient(circle at 50% 0, red, rgba(255,0,0,0) 70%),
                 radial-gradient(circle at 7% 75%, blue, rgba(255,0,0,0) 70%), 
-                radial-gradient(circle at 93% 75, green, rgba(255,0,0,0) 70%);
+                radial-gradient(circle at 93% 75%, green, rgba(255,0,0,0) 70%);
 }
