@@ -5,12 +5,13 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: linear-gradient(90deg, rgba(36,0,35,1) 0%, rgba(91,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: 
+        linear-gradient(90deg, rgba(36,0,35,1) 0%, rgba(91,9,121,1) 35%, rgba(0,212,255,1) 100%);
     /* 애니메이션 */
     animation-name: ball; /* 애니메이션 이름 */
     animation-duration: 3s; /* 재생시간 */
     animation-timing-function: linear; /* 타이밍 함수 */
-    animation-iteration-count: 3; /* 반복횟수 */
+    animation-iteration-count: infinite; /* 반복횟수 */
 }
 
 #wrap > h1 { line-height: 200px; color: white; text-align: center;}
